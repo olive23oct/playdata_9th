@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css style</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        h3{
+            color: teal;
+        }
+        .internal{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 적용 스타일</h1>
+    <h2>1. inline style</h2>
+    <p style="font-size: 20px;">attribute로 스타일 적용</p>
+    <br><hr><br>
+
+    <h2>2. internal css</h2>
+    <p class="internal">embedding style</p>
+
+    <h2>2-1. inline vs internal</h2>
+    <h3>inline/internal css 동시 적용 시</h3>
+    <h3 style="color: violet;">inline 우선 적용</h3>
+    <br><hr><br>
+
+    <h2>3. external css</h2>
+    <h4>적용 x</h4>
+    <h4 class="external">적용 o</h4>
+</body>
+</html>

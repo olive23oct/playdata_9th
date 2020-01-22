@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS list &amp; table</title>
+    <style>
+        ul {
+            background-color: cornflowerblue;
+            /* list-style-type: decimal;*/
+            list-style-image: url(https://cdn1.iconfinder.com/data/icons/life-of-amazon-outline/340/jaguar_animal_wildlife_leopard_jungle_safari_dangerous_amazon-128.png); 
+            list-style-position: outside;
+        }
+        .inside { 
+            list-style-position: inside;
+        }
+        ol { 
+            list-style-type: disc;
+        }
+        .shorthand{
+            list-style: square inside url(https://cdn1.iconfinder.com/data/icons/life-of-amazon-outline/340/jaguar_animal_wildlife_leopard_jungle_safari_dangerous_amazon-128.png);
+        }
+        table, td { 
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 100px;
+        }
+        .bottom {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>1. css list</h1>
+    <h2>1-1.순서없는 리스트</h2>
+    <ul>
+        <li>첫번째</li>
+        <li>두번째</li>
+        <li>세번째</li>
+    </ul>
+    <ul class="inside">
+        <li>첫번째</li>
+        <li>두번째</li>
+        <li>세번째</li>
+    </ul>
+    <br><br>
+    <h2>1-2. 순서가 있는 리스트</h2>
+    <ol>
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3th</li>
+    </ol>
+    <ul class="shorthand">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3th</li>
+    </ul>
+    <br><hr><br>
+
+    <h1>2. css table</h1>
+    <table>
+        <tr class="bottom">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>

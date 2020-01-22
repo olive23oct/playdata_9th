@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS selector</title>
+    <style>
+        p {
+            background-color: teal;
+        }
+        #myId{
+            background-color: tomato;
+        }
+        .myClass{
+            width: 100px;
+            height: 100px;
+            font-size: 10px;
+            text-align: center;
+            background-color: thistle;
+        }
+        .inner{
+            width: 50px;
+            height: 50px;
+            background-color: steelblue;
+        }
+
+        div, span{
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <h1>selector</h1>
+    <h2>1. tag selector</h2>
+    <p>Select P tag</p>
+    <p>p tag 1</p>
+    <p>p tag 2</p>
+    <br><hr><br>
+
+    <h2>2. Id selector</h2>
+    <p id="myId">Id selector #</p>
+    <p>Id selector x</p>
+    <br><hr><br>
+
+    <h2>3. class selector</h2>
+    <div class="myClass">class selector</div> <br>
+    <div class="myClass">
+        my class
+        <div class="inner">
+
+        </div>
+    </div>
+
+    <h2>4. group selector</h2>
+    <div>div</div>
+    <span>span</span>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS font &amp; text</title>
+    <style>
+        /* font */
+        p {
+            color: white;
+            font-size: 30px;
+            background: firebrick;
+            /* font-family */
+            font-family: 'Courier New', Courier, monospace, '맑은 고딕'  ;
+        }
+        #font-size {
+            font-size: 40px;
+        }
+        #font-style {
+            font-style: italic;
+        }
+        #font-weight {
+            font-weight: bold;
+        }
+        #font-shorthand {
+            font: italic bold 24px/3 fantasy;
+        } 
+        /* text */
+        .text {
+            text-align: center;
+            text-decoration: underline;
+            line-height: 125%; /* 1 = 100% */
+        }
+    </style>
+</head>
+<body>
+    <h1>css font</h1>
+    <h2>1-1. font-size</h2>
+    <p id="font-size">font-size 사이즈</p>
+    <p id="font-style">font-style 서체</p>
+    <p id="font-weight">font-weight 굵기</p>
+    <p id="font-shorthand">font-shorthand 폰트</p>
+
+    <br><hr><br>
+
+    <h1>css text</h1>
+    <div class="text">
+        text-align <br>
+        line-height
+    </div>
+</body>
+</html>

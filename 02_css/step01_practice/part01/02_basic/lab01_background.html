@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS 색상 및 배경</title>
+    <style>
+        .background-image {
+            /* background-image: url(https://cdn.pixabay.com/photo/2020/01/14/08/34/forest-4764438__340.jpg); */
+            background-image: url(https://cdn1.iconfinder.com/data/icons/life-of-amazon-outline/340/ocelot_animal_wild_wildlife_cat_jungle_amazon-128.png);
+            background-repeat: no-repeat;
+            width: 480px;
+            height: 240px;
+        }
+        .background-position {
+            height: 400px;
+            background-color: beige;
+            background-image: url(https://cdn3.iconfinder.com/data/icons/emoji-1-4/64/_puke_sick_emoji-128.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+        .background-attachment {
+            background-image: url(https://cdn3.iconfinder.com/data/icons/emoji-1-4/64/_puke_sick_emoji-128.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: fixed;
+        }
+        .background-shorthand {
+            background: olive url(https://cdn3.iconfinder.com/data/icons/emoji-1-4/64/_puke_sick_emoji-128.png)
+            no-repeat top right;
+        }
+        .background-size {
+            height: 240px;
+            background-image: url(https://cdn3.iconfinder.com/data/icons/emoji-1-4/64/_puke_sick_emoji-128.png);
+            background-size: auto;
+        }
+        .background-gradient{
+            width: 400px;
+            height: 400px;
+            background-image: linear-gradient(
+                to top right,
+                #ee8572 0%,
+                #35495e 33%,
+                #347474 66%,
+                #63b7af 100%
+            );
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>1. color</h1>
+    <p style="color: rgb(255,0, 0);">RGB</p>
+    <p style="color: #ff0000;">HEX</p>
+    <p style="color: #e9ea77;">OOO!!</p>
+    <br><hr><br>
+
+    <h1>2. background</h1>
+    <h2>2-1. background-color</h2>
+    <div style="background-color: #fa8072;">배경색 지정 hex</div>
+    <div style="background-color: rgb(250, 128, 114);">배경색 지정 rgb</div>
+    <br>
+
+    <h2>2-2. background-image</h2>
+    <div class="background-image">Background-image</div>
+
+    <h2>2-3. background-positon</h2>
+    <div class="background-position"></div>
+
+    <h2>2-4. background-attatchment</h2>
+    <div class="background-attachment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate doloremque cum neque repellendus, iste distinctio, porro quia magnam at debitis, totam in accusamus minus! Doloremque ipsa inventore aliquam nam!
+    Dolorum perspiciatis eum placeat maiores consequatur quisquam expedita mollitia repellat eveniet nam corrupti est similique tempora ea provident possimus exercitationem corporis porro illo, odit aspernatur obcaecati non voluptatum! Aspernatur, voluptatem?
+    Vel non odio, explicabo minima labore animi beatae expedita asperiores impedit nobis consectetur sint perferendis maxime deserunt quae sunt excepturi, aut dolorem obcaecati. Nobis ducimus deleniti laboriosam ut! Voluptas, pariatur?
+    A doloremque, dolore ullam eligendi culpa sequi maxime esse tempora sapiente cum sed placeat? Rerum sed voluptatem neque in, harum sapiente ipsa nesciunt? Ut corrupti suscipit quibusdam? Cupiditate, possimus similique!
+    Ab, ipsa temporibus. Aut, praesentium. Neque aut itaque eos enim ducimus, ex autem odio, ipsa delectus ut quis, et quasi dolorum. Maxime saepe fugiat ipsa labore, similique laborum debitis aspernatur!
+    Unde eveniet quaerat et atque molestiae minima architecto, rerum iusto nostrum ex, voluptatibus incidunt est, dolorum eum maxime assumenda eligendi voluptas eaque quis culpa reprehenderit repellat. Officia veniam minima repellat.
+    Sit nobis veritatis facere magni perspiciatis nemo debitis optio consequuntur doloribus illum temporibus vero qui eaque quidem sunt dicta in, eos nostrum eum ad magnam. Sequi labore hic doloremque molestias!
+    Officiis voluptates nemo sunt ea praesentium eius ipsa doloribus. Molestias ut illo sit blanditiis minus expedita atque et commodi incidunt, quibusdam, similique eaque dicta repudiandae rerum alias tenetur voluptatem. Officiis.
+    Consequuntur atque voluptate nisi vero excepturi illo fuga vitae modi minima reprehenderit rem eligendi accusamus, itaque, sed perspiciatis enim. In nisi quidem, maiores architecto quibusdam iusto. Esse odit suscipit maxime!
+    Officiis eveniet, eum fugit laudantium saepe quos quod eos incidunt omnis obcaecati molestiae ea eaque in nulla aspernatur, voluptatum magnam animi. Nesciunt repellendus est laborum suscipit! Recusandae dicta magnam rerum.
+    Doloribus, in placeat blanditiis dignissimos exercitationem odit cupiditate iure natus fugiat ut tenetur mollitia nemo quas similique eius ullam! Possimus harum quia reprehenderit adipisci deleniti dicta minima expedita enim culpa.
+    Veniam ullam fuga corrupti unde enim, temporibus non rerum eum qui voluptates blanditiis. Numquam asperiores delectus dolores enim itaque sint debitis culpa, officia earum mollitia minus consequuntur ratione, qui nam?
+    Labore perspiciatis omnis quia dolore aliquid tempore quos cupiditate assumenda beatae quo magnam, illum ut explicabo architecto porro illo non nostrum excepturi a. Exercitationem beatae labore quam dicta aspernatur tenetur.
+    Suscipit beatae quidem at libero, accusamus repellat eaque unde dolorum culpa possimus aspernatur, a illo. In est cupiditate totam vel eaque! Ducimus, sint aspernatur veniam quisquam ad assumenda illum voluptate?
+    Hic repellat ipsa expedita veritatis, nemo, qui consectetur soluta repudiandae non, ducimus rerum earum perspiciatis facere ullam. Repellendus quod earum esse laudantium quam illum aspernatur accusantium eum ex, ipsam culpa?
+    Fuga, adipisci assumenda? Vitae incidunt, amet, et similique eveniet quos obcaecati accusamus ab nulla praesentium fuga quod maiores unde, voluptatem aperiam quia? Sunt quibusdam eveniet at eaque quaerat fugit dolorem.
+    Non rerum, ducimus adipisci eveniet explicabo quae modi sit asperiores cum iste, nihil accusamus aliquid id dignissimos, aliquam dolore neque tempore. Fuga, dolorum necessitatibus? Modi, ipsum. Beatae excepturi fugit hic.
+    Consequuntur quasi labore at assumenda, rerum eius numquam non doloremque obcaecati. Inventore, magni, ducimus et nisi debitis modi delectus eaque explicabo iusto suscipit deserunt blanditiis ut molestiae impedit vel itaque?
+    Similique quaerat ad, sunt a quos velit dolorem dolore fugiat eius repellendus officiis, ipsam obcaecati magnam mollitia nisi in quo perspiciatis aliquam voluptate quod deserunt id eaque quibusdam! Molestias, non!
+    Atque exercitationem facere ullam nulla non dolore numquam deleniti reiciendis, hic repudiandae, aliquam ut doloribus aut ad adipisci eum fuga vero. Quam tempora consequuntur corrupti? Harum maxime explicabo quia repudiandae!</div>
+
+    <h2>2-5. background short</h2>
+    <div class="background-shorthand">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea iste quod. Necessitatibus voluptates, deserunt cum veniam illum consectetur corrupti, ullam cumque at sed vel architecto maxime? Eum, at labore.
+    Blanditiis quaerat iste vero culpa accusantium nemo enim eum? Soluta sapiente expedita, tempora maxime eveniet dolores qui numquam, magni, suscipit officia id pariatur rem dignissimos ullam. Et possimus dolorem veritatis.
+    Error dicta quos cumque officiis ut totam, maxime commodi laborum distinctio pariatur sint, quis cupiditate ducimus voluptatum necessitatibus, libero animi doloremque autem deleniti architecto dolore sed iure. Beatae, aliquid impedit.
+    Doloribus excepturi deserunt voluptatibus eos. Enim ratione voluptatem error reiciendis eum commodi ad dolor laboriosam quasi recusandae. Adipisci et eveniet nihil, vero vitae esse ipsam! Nemo, deleniti modi? Hic, similique!
+    Quasi quisquam at, nesciunt porro officiis, quam aliquam dolor sequi obcaecati dolorem enim ratione exercitationem minus dolores fugit alias vitae, doloribus libero magnam minima voluptas reiciendis quos omnis ipsum! Deserunt!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ex quisquam fuga voluptates quidem nihil obcaecati aut, voluptatum provident repellendus illum quaerat. Quos id molestiae eos! Aut quaerat soluta sed?
+    Repudiandae ipsa, repellat quae numquam in ad vero qui illo? Facere, rem esse? Animi voluptate sit, natus neque nam repellendus fugiat aliquam ipsa ratione nulla debitis, reiciendis blanditiis. Voluptate, molestiae?
+    Eligendi id pariatur corrupti possimus. Doloremque labore dignissimos at molestiae libero eos eius. Nostrum, rerum! Esse nulla tempora corporis nemo debitis, quis cum officiis? Facilis quam quod beatae voluptate numquam.
+    Nesciunt veritatis sequi impedit quisquam, porro asperiores quia doloribus officiis similique non eligendi quod illo delectus harum tenetur. Dolor accusantium reiciendis in porro, dolorem temporibus odit tenetur consequatur cumque iure!
+    Nesciunt exercitationem distinctio praesentium consequuntur hic dicta corrupti voluptas soluta. Autem ducimus consectetur, non molestiae eligendi, ipsam animi eveniet dolorum deserunt sapiente, neque accusantium quos quia officiis est quam maiores?
+    Alias in voluptas dignissimos vero perspiciatis animi esse, harum, voluptatem veritatis illum labore quae atque cumque accusamus recusandae accusantium nam iure. Rem tempore, dolorum facilis illum ut temporibus tenetur similique.
+    Saepe assumenda quos dolorem unde vitae id rerum fuga placeat et sit, tenetur dolorum doloremque illo. Nesciunt, odio molestias aut cumque architecto rem dolore corporis quas? Maiores corrupti ipsa est!
+    Tempore illum fugit atque corporis laboriosam vitae? Dolores explicabo nihil similique, odit pariatur sed repellendus consectetur sequi velit hic? Nihil quia, facere placeat velit perspiciatis enim harum ratione commodi reprehenderit.
+    Atque facere aperiam, nisi quod dolor temporibus ex veniam nemo esse optio ea eaque explicabo a quidem praesentium provident. Facere non temporibus ad odio pariatur alias excepturi, quisquam in iusto!
+    Soluta nostrum, voluptatibus aut nihil rem distinctio quasi adipisci sunt, repellat atque sequi dicta facilis debitis. Itaque, voluptates, tempore eos, repellat earum porro est corrupti adipisci deleniti veniam quidem aliquid!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, harum magnam beatae dignissimos, molestias, nobis provident officiis alias quasi magni delectus cum suscipit cumque numquam accusamus velit? Incidunt, atque sint?
+    Quaerat modi quasi, repellendus ratione pariatur perferendis deserunt magni nostrum asperiores quos, obcaecati corporis id soluta commodi at optio, magnam temporibus atque ipsum explicabo. Nam, vitae! Quam dicta voluptate cupiditate?
+    Voluptas, porro. Sit corporis eveniet vero, beatae, nihil qui quasi saepe facilis consequuntur, delectus id! Sed pariatur eveniet eius illum reprehenderit praesentium, dolores tenetur voluptas doloribus deserunt magnam explicabo nostrum!
+    Ad, accusantium. Earum cumque odio quod architecto ipsam alias voluptatibus impedit consectetur expedita! Iure repellendus a natus minus temporibus quaerat omnis. Eius nulla repellat ad soluta praesentium quod nihil molestias.
+    </div>
+
+    <h2>2-6. background-size</h2>
+    <div class="background-size">background-size</div>
+
+    <h2>2-7. background-image: gradient</h2>
+    <div class="background-gradient"></div>
+</body>
+</html>
